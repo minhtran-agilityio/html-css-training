@@ -1,0 +1,21 @@
+/* Common */
+
+@import url("common/global.css");
+@import url("common/typrography.css");
+@import url("common/variables.css");
+
+/* Components */
+
+@import url("components/navbar.css");
+@import url("components/button.css");
+@import url("components/text.css");
+
+/* Sections */
+
+@import url("sections/header.css");
+@import url("sections/introduction.css");
+@import url("sections/instant-setup.css");
+@import url("sections/comments.css");
+@import url("sections/question.css");
+@import url("sections/organization.css");
+@import url("sections/footer.css");

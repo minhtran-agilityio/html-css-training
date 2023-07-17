@@ -1,0 +1,15 @@
+.header {
+  width: 1120px;
+  min-height: 56px;
+  margin-top: 47px;
+  margin-left: 162px;
+}
+
+.header .logo {
+  width: 138px;
+  min-height: 48px;
+}
+
+.header .button-none {
+  margin-right: 8px;
+}

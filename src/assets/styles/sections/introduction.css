@@ -1,0 +1,90 @@
+.introduction .main-title {
+  width: 600px;
+  margin: 72px auto 0 auto;
+  font-size: var(--xl-font-size);
+  color: var(--dark-color);
+  line-height: var(--xl-line-height);
+}
+
+.introduction .sub-title {
+  margin-top: 20px;
+  font-size: var(--md-font-size);
+  font-weight: var(--regular-font-weight);
+  color: var(--gray-color);
+}
+
+.introduction .buttons {
+  min-height: 56px;
+  margin-top: 32px;
+  padding-left: 36px;
+}
+
+.introduction .buttons .button-primary {
+  margin-right: 20px;
+}
+
+.introduction .buttons .button-secondary {
+  margin-right: 28px;
+  padding: 12px 18px;
+}
+
+.introduction .button-secondary img {
+  padding: 0 10px;
+}
+
+.introduction .illustration {
+  width: 840px;
+  min-height: 600px;
+  margin: 40px auto 136px auto;
+}
+
+.introduction .boxes {
+  margin: auto 160px;
+}
+
+.introduction .box {
+  width: 258px;
+  text-align: left;
+}
+
+.introduction .box .rightline {
+  text-decoration: none;
+  position: relative;
+}
+
+.introduction .box:not(:last-child) .rightline:after {
+  position: absolute;
+  content: "";
+  width: 4px;
+  top: -123px;
+  left: 344px;
+  min-height: 240px;
+  opacity: 0.1;
+  background: var(--secondary-color);
+}
+
+.introduction .icon {
+  width: 64px;
+  min-height: 64px;
+  background-color: var(--secondary-color);
+  border-radius: 50%;
+  object-fit: contain;
+}
+
+.introduction .icon img {
+  margin-top: 25%;
+}
+
+.introduction .content-title {
+  margin-top: 62px;
+}
+
+.introduction .content {
+  margin-top: 24px;
+  padding-right: 20px;
+}
+
+.introduction .buttons .button-secondary:hover img {
+  filter: invert(86%) sepia(100%) saturate(0%) hue-rotate(109deg)
+    brightness(105%) contrast(102%);
+}

@@ -1,0 +1,20 @@
+.navbar {
+  min-height: 24px;
+  width: 535px;
+}
+
+.navbar li {
+  gap: var(--lg-gap);
+}
+
+.navbar li a {
+  color: var(--gray-color);
+}
+
+.navbar li a:hover {
+  color: var(--primary-color);
+}
+
+.navbar li a[class="active"] {
+  color: var(--primary-color);
+}

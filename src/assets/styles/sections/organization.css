@@ -1,0 +1,27 @@
+.organization {
+  width: 1120px;
+  height: 400px;
+  border-radius: var(--lg-radius);
+  background: linear-gradient(90.33deg, #fea989 0.02%, #99b4db 98.92%);
+  margin: 120px auto 0 auto;
+}
+
+.organization .title {
+  padding-top: 64px;
+  font-size: 56px;
+  line-height: 64px;
+  color: var(--dark-color);
+  gap: var(--sm-gap);
+  margin-bottom: 32px;
+}
+
+.organization .button {
+  position: relative;
+  z-index: 1;
+}
+
+.organization .img {
+  margin: -30px auto auto auto;
+  width: 750px;
+  height: 330px;
+}

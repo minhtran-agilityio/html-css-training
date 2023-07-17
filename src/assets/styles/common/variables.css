@@ -1,0 +1,51 @@
+:root {
+  /* color */
+  --bgr-color: #eeeff2;
+  --white-bgr-color: #f7f7f8;
+  --black-color: #000000;
+  --gray-color: #6e757c;
+  --primary-color: #ff6e30;
+  --secondary-color: #748fb5;
+  --white-color: #ffffff;
+  --dark-color: #272e35;
+  /* font family */
+  --primary-font: Poppins;
+  --secondary-font: Inter;
+  /* font size */
+  --xxs-font-size: 12px;
+  --xs-font-size: 16px;
+  --sm-font-size: 18px;
+  --md-font-size: 20px;
+  --xm-font-size: 32px;
+  --lg-font-size: 48px;
+  --xl-font-size: 72px;
+  --card-font-size: 22px;
+  /* font weight */
+  --regular-font-weight: 400;
+  --medium-font-weight: 500;
+  --bold-font-weight: 600;
+  --black-font-weight: 700;
+  --max-font-weight: 800;
+  /* line height */
+  --xs-line-height: 16px;
+  --sm-line-height: 24px;
+  --xm-line-height: 32px;
+  --md-line-height: 40px;
+  --lg-line-height: 56px;
+  --xl-line-height: 80px;
+  --card-line-height: 26.6px;
+  /* border radius */
+  --xs-radius: 16px;
+  --sm-radius: 18px;
+  --md-radius: 20px;
+  --lg-radius: 24px;
+  /* gap */
+  --sm-gap: 10px;
+  --lg-gap: 48px;
+  /* padding */
+  --xxs-padding: 8px;
+  --xs-padding: 12px;
+  --sm-padding: 16px;
+  --md-padding: 24px;
+  --lg-padding: 32px;
+}
